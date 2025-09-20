@@ -21,7 +21,7 @@ export default function Projects() {
                 src={p.thumb} 
                 alt={p.title} 
                 className="absolute inset-0 w-full h-full object-cover" 
-                loading='lazy' />
+                />
               )}
             </div>
             {/* Название  */}
@@ -43,11 +43,23 @@ export default function Projects() {
             </div>
 
             <div className="flex gap-3 pt-1">
-              <Link to={`/play/${p.slug}`} className="text-pink-600 hover:underline">
+              <a
+               href={`${import.meta.env.BASE_URL}apps/${p.slug}/index.html`}
+               target='_blank'
+               rel='noopener noreferrer'
+               className="text-pink-600 hover:underline"
+               >
               Просмотр
-              </Link>
+              </a>
               {p.repo && (
-                <a href={p.repo} target="_blank" className="text-pink-600 hover:underline">GitHub</a>
+                <a 
+                href={p.repo} 
+                target="_blank" 
+                className="text-pink-600 hover:underline"
+                rel='noopener noreferrer'
+                >
+                  GitHub
+                </a>
               )}
             </div>
           </article>
