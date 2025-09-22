@@ -14,10 +14,10 @@
 ## Содердание портфолио
 | Проект               | Описание                                                  | Стек                        | Деплой
 |----------------------|-----------------------------------------------------------|-----------------------------|-----------------------------------------------------------------------
-|**Movie Explorer**    | Приложение для поиска фильмов с подключением к TMDb API.  | React, Fetch API, Tailwind  | [Смотреть](https://viktorikata.github.io/Portfolio-site/apps/movie-explorer/index.html)
+|**Movie Explorer**    | Приложение для поиска фильмов с подключением к TMDb API   | React, Fetch API, Tailwind  | [Смотреть](https://viktorikata.github.io/Portfolio-site/apps/movie-explorer/index.html)
 |**Taskify**           | ToDo-приложение с категориями и статусами                 | React, Tailwind             |[Смотреть](https://viktorikata.github.io/Portfolio-site/apps/taskify/index.html)
 |**User Manager App**  | React-приложение с CRUD-операциями и подключением к API   | React, Redux Toolkit, Fetch |[Смотреть](https://viktorikata.github.io/Portfolio-site/apps/user-manager-app/index.html)
-|**Quiz Master**       | Интерактивная викторина на тему: "HTML, CSS, JS".         | React Hooks, Tailwind       |[Смотреть](https://viktorikata.github.io/Portfolio-site/apps/quiz-master/index.html)
+|**Quiz Master**       | Интерактивная викторина на тему: "HTML, CSS, JS"          | React Hooks, Tailwind       |[Смотреть](https://viktorikata.github.io/Portfolio-site/apps/quiz-master/index.html)
 
 ## Запуск проекта
 
@@ -47,5 +47,5 @@ npm start
 
  [Виктория (Viktorikata)](https://github.com/Viktorikata)
 
- ## ⭐ 
+ ### ⭐ 
  Если вам понравились проекты, поставьте звезду репозиторию или свяжитесь со мной для сотрудничества!
