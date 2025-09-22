@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
-        <nav className='flex justify-between items-center px-6 py-4 bg-white shadow-md'> 
-        <h1 className='text-2xl font-bold text-gray-800'>Viktoria</h1>
-        <ul className='flex gap-6 text-gray-600'>
+        <nav className='flex flex-wrap justify-between items-center px-6 py-4 bg-white shadow-md'> 
+        <h1 className='hidden md:block text-2xl font-bold text-gray-800'>Portfolio</h1>
+        <ul className='justify-center w-full flex flex-wrap gap-4 text-gray-600 text-sm sm:text-base'>
             <li>
                 <Link to='/' className='hover:text-black'>Главная</Link>
             </li>
