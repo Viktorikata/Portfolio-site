@@ -7,7 +7,7 @@ export const projects = [
     {
         slug: 'movie-explorer',
         title: 'Movie-Explorer',
-        summary: 'Приложение для поиска фильмов с подключением к TMDb API. Поддерживает избранное, отображение карточек, фильтрацию по названию и жанрам.',
+        summary: 'Приложение для поиска фильмов с подключением к TMDb API. Поддерживает избранное, отображение карточек, фильтрацию по названию и жанрам',
         thumb: movieImg,
         stack: ['React', 'React Router', 'React Hooks', 'CSS + Media Queries', 'TMDb API', 'localStorage', 'Google Fonts', 'Git + GitHub'],
         demo: '',

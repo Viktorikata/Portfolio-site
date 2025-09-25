@@ -3,7 +3,8 @@ export default function About() {
     <section className="min-h-[60vh] px-6 py-10">
       <h1 className="text-center text-3xl font-bold mb-4">Обо мне</h1>
       <p className="text-center text-gray-700 leading-relaxed">
-        Я — фронтенд-разработчик. Фокус — создание производительных и поддерживаемых интерфейсов на React. Работаю по принципам модульности, предсказуемости и простоты: чистая архитектура компонентов, явные типы данных, аккуратные зависимости и понятные стили.
+        Я — фронтенд-разработчик.<br />
+        Фокус — создание производительных и поддерживаемых интерфейсов на React. Работаю по принципам модульности, предсказуемости и простоты: чистая архитектура компонентов, явные типы данных, аккуратные зависимости и понятные стили.
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2 ">Чем я полезна:</h2>
@@ -16,11 +17,10 @@ export default function About() {
 
       <h2 className="text-xl font-semibold mt-6 mb-2">Технологии и инструменты:</h2>
       <ul className="list-disc ml-5 text-gray-700">
-        <li> <b>Ядро:</b> JavaScript (ES6+), TypeScript (база), React, React Router, Vite, TypeScript.</li>
+        <li> <b>Ядро:</b> JavaScript (ES6+), TypeScript (база), React, React Router, Vite.</li>
         <li> <b>Стиль:</b> CSS3, Tailwind CSS (utility-first, адаптивность, тёмная тема при необходимости).</li>
-        <li> <b>Состояние/данные:</b> React hooks, Context; знакома с Redux Toolkit, createAsyncThunk, REST API.</li>
+        <li> <b>Состояние/данные:</b> React hooks, Context, Redux Toolkit, createAsyncThunk, REST API.</li>
         <li> <b>Инфраструктура:</b> Git/GitHub, GitHub Pages, базовая CI/CD, линтинг (ESLint), форматирование (Prettier).</li>
-        <li> <b>Качество:</b> базовые знания о тестировании</li>
       </ul>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">Подход к работе:</h2>
@@ -31,7 +31,7 @@ export default function About() {
       </ul>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">Сейчас:</h2>
-      <p  className="list-disc ml-5 text-gray-700">Развиваю портфолио из нескольких React-проектов (включая CRUD и работу с API), ищу команду, где смогу приносить пользу и расти как разработчица.</p>
+      <p  className="list-disc ml-5 text-gray-700">Развиваю портфолио из нескольких React-проектов (включая CRUD и работу с API), ищу команду, где смогу приносить пользу и расти как разработчик.</p>
 
 
     </section>
