@@ -18,9 +18,13 @@ export default function Projects() {
               >
               {p.thumb && (
                 <img 
-                src={p.thumb} 
-                alt={p.title} 
-                className="absolute inset-0 w-full h-full object-cover" 
+                src={p.thumb}
+                  alt={p.title}
+                  loading="lazy"
+                  decoding="async"
+                  fetchpriority="low"
+                  className="absolute inset-0 w-full h-full object-cover"
+                  sizes="(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw" 
                 />
               )}
             </div>
