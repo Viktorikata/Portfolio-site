@@ -4,15 +4,6 @@ import quizImg from '../assets/quiz-master.jpg'
 import userManagerImg from '../assets/user-manager-app.jpg'
 
 export const projects = [
-    {
-        slug: 'movie-explorer',
-        title: 'Movie-Explorer',
-        summary: 'Приложение для поиска фильмов с подключением к TMDb API. Поддерживает избранное, отображение карточек, фильтрацию по названию и жанрам',
-        thumb: movieImg,
-        stack: ['React', 'React Router', 'React Hooks', 'CSS + Media Queries', 'TMDb API', 'localStorage', 'Google Fonts', 'Git + GitHub'],
-        demo: '',
-        repo: 'https://github.com/Viktorikata/movie-explorer',
-    },
 
     {
         slug: 'taskify',
@@ -39,5 +30,15 @@ export const projects = [
         thumb: quizImg,
         stack: ['React', 'Css', 'Google Fonts'],
         repo: 'https://github.com/Viktorikata/quiz-master',
+    },
+
+    {
+        slug: 'movie-explorer',
+        title: 'Movie-Explorer (работает только с ВПН)',
+        summary: 'Приложение для поиска фильмов с подключением к TMDb API. Поддерживает избранное, отображение карточек, фильтрацию по названию и жанрам',
+        thumb: movieImg,
+        stack: ['React', 'React Router', 'React Hooks', 'CSS + Media Queries', 'TMDb API', 'localStorage', 'Google Fonts', 'Git + GitHub'],
+        demo: '',
+        repo: 'https://github.com/Viktorikata/movie-explorer',
     },
 ]
